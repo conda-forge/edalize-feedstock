@@ -1,5 +1,5 @@
 {% set name = "edalize" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2c460f754406e00029f629dac4d362bc5275d0357a04b18b5b43803bf5f95ba8
+  sha256: 0aa2ac1f244872c3656b28f9f7202971531459e40b26dedd7ccfb328668cf492
 
 build:
   noarch: python
