@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -20,8 +20,7 @@ requirements:
     - pip
   run:
     - python
-    # Avoid Jinja 2.11 until https://github.com/pallets/jinja/issues/1138
-    - jinja2 >=2.8,<2.11
+    - jinja2 >=2.8,!=2.11.0,!=2.11.1
     - pytest >=3.3.0
 
 test:
