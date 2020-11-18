@@ -5,11 +5,9 @@ Home: https://github.com/olofk/edalize
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/edalize-feedstock/blob/master/LICENSE.txt)
 
 Summary: Edalize is a library for interfacing EDA tools, primarily for FPGA development
-
-
 
 Current build status
 ====================
