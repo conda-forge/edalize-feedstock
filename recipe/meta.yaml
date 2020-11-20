@@ -21,7 +21,6 @@ requirements:
   run:
     - python
     - jinja2 >=2.8,!=2.11.0,!=2.11.1
-    - pytest >=3.3.0
 
 test:
   imports:
